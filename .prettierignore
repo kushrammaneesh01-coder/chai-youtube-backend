@@ -1,0 +1,26 @@
+# Files listed in .gitignore will not be tracked by Git
+# If a file is already tracked, use 'git rm --cached <file>' to untrack it
+
+# Node modules
+node_modules/
+
+# Build or distribution folders
+dist/
+build/
+out/
+
+# Environment files (secrets)
+.env
+
+# Log files
+*.log
+
+# Git internal files
+.git/
+
+# Package lock files (optional to track)
+package-lock.json
+yarn.lock
+
+# Public folder (optional, static assets)
+public/
